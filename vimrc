@@ -29,3 +29,9 @@ highlight NonText guifg=#061072 guibg=#061072 gui=NONE ctermfg=246 ctermbg=018 c
 
 set pastetoggle=<F3>
 syntax on
+
+nmap <F2> i<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+imap <F2> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
+
+nmap <F1> i<C-R>=strftime("%Y-%m-%d %a")<CR><Esc>
+imap <F1> <C-R>=strftime("%Y-%m-%d %a")<CR>

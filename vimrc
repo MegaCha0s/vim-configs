@@ -27,6 +27,8 @@ map <F9> :<C-U>!./%:r<CR>
 highlight Normal guifg=#061072 guibg=#061072 gui=NONE ctermfg=254 ctermbg=018 cterm=NONE
 highlight NonText guifg=#061072 guibg=#061072 gui=NONE ctermfg=246 ctermbg=018 cterm=NONE
 
+colorscheme af
+
 set pastetoggle=<F3>
 syntax on
 
